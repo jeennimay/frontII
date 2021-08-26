@@ -1,0 +1,29 @@
+body{
+    background-color: purple;
+}
+
+/* .meiaLua{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 25px 10px 10px 10px gray;
+} */
+
+
+.transparent-ball{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.yellow-ball{
+    position: absolute;
+    left: 6%;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+}
