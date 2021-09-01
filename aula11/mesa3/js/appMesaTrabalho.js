@@ -17,6 +17,7 @@ function createCard() {
     cardSection.innerHTML += `<div> <img src="${urlImg}">
                                     <p>${description}<p> </div>`;
   /* criando a estrutura do html, dentro da div(#card), que ira reeber as informações do card */
+
 }
 
 /* função pop - exibe a janela de formulário, para interação com usuários */
