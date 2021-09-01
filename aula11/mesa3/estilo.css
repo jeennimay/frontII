@@ -23,23 +23,23 @@ div {
       padding: 5px; /* margem para dentro do objeto de 5px */
       box-shadow: 5px 5px 5px rgba(0,0,0,0.5); /* sombra da caixa */
       border-radius: 5px; /* arredondamento das bordas */
-      transition: all .25s ease-in-out;   /*  */
+      transition: all .25s ease-in-out;   /* configuração da animação */
 }
-      :hover img {
+      :hover img {    /* Quando o cursor passa por cima da div, estiliza a imagem */
         filter: grayscale(0);
       }
-      :hover {
+      :hover {    /* Quando o cursor passa por cima da div, a borda fica em cor coral*/
         border-color: coral;
       }
-      img {
-        width: 100%;
+      img {   /* estilização da imagem */
+        width: 100%;    /* largura da imagem em 100% do elemento pai, div */
         filter: grayscale(100%);
-        border-radius: 5px;
-        transition: all .25s ease-in-out;
+        border-radius: 5px;   /* arredondamento da borda */
+        transition: all .25s ease-in-out; /* configuração da animação */
       }
       p {
-        margin: 5px 0;
-        padding: 0;
-        text-align: center;
-        font-style: italic;
+        margin: 5px 0;  /* margem de 5px para cima e para baixo, no elemento p */
+        padding: 0;   /* configurando a margem interna do elemento <p> para 0 */
+        text-align: center; /* centralizando o texto */
+        font-style: italic;   /* estilo da fontte em itálico */
       } 

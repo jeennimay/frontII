@@ -1,14 +1,15 @@
+/* estilo do elemento com id pop */
 #pop{
-  background-color: teal;
-  z-index: 100;
-  display:none;
-  position:absolute;
-  top:50%;
-  left:50%;
-  margin-left:-150px;
-  margin-top:-100px;
-  padding:10px;
-  width:300px;
-  height:200px;
-  border:1px solid #d0d0d0
+  background-color: teal;   /* cor de fundo do elemento */
+  z-index: 100;   /* trazendo o elemento para frente, sobrepondo outras camadas */
+  display:none;   /* tirando a visibilidade do elemento e tudo que está dentro dele */
+  position:absolute;   /* posição absoluta em relação ao body */
+  top:50%;    /* posição de 50% do topo */
+  left:50%;   /* posição de 50% da esquerda */
+  margin-left:-150px;   /* margem de -150px à esquerda, para centralizar o formulário */
+  margin-top:-100px;    /* margem de -100px do topo */
+  padding:10px;     /* margem interna, do elemento */
+  width:300px;    /* largura do elemento */
+  height:200px;   /* altura do elemento */
+  border:1px solid #d0d0d0;   /* estilizando a borda do elemento, em 1px de expessura, solida e cor #d0d0d0 */
 }
