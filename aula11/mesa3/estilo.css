@@ -1,0 +1,45 @@
+body {
+    display: flex; /* flex */
+    justify-content: center; /* permite centralizar horizontalmente os conteúdos do body */
+    align-items: center;  /* permite centralizar veerticalmente os conteúdos do body */
+    flex-direction: column; /* direciona os elementos em coluna */
+    font-family: sans-serif; /* Definindo font para sem serifa */
+  }
+  h1 {
+    color: coral; /* cor de font coral */
+  }
+  .grid-container {
+    columns: 5 200px; /* quantidade de colunas, e o tamanho delas */
+    column-gap: 1.5rem; /* a distância entre as colunas */
+    width: 90%; /* largura do elemento de classe grid-container */
+    margin: 0 auto; /* margem 0 para cima e para baixo, e para os lados com medidas automáticas para centralizar horizontalmente.  */
+  }
+div {
+      width: 150px; /* largura da div */
+      margin: 0 1.5rem 1.5rem 0;  /* margem de 0 para cima, 1.5rem para direita, 1.5rem para baixo e 0 para esquerda */
+      display: inline-block; /* disposição dos blocos em linha, inline-block permite ajustar o tamanho de cada bloco, e disponibilisá-los em linha */
+      width: 100%;  /* tamanho de 100% em relação ao elemento pai */
+      border: solid 2px black;  /* estilizando a borda, em solida, 2px de expessura e cor preta */
+      padding: 5px; /* margem para dentro do objeto de 5px */
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.5); /* sombra da caixa */
+      border-radius: 5px; /* arredondamento das bordas */
+      transition: all .25s ease-in-out;   /*  */
+}
+      :hover img {
+        filter: grayscale(0);
+      }
+      :hover {
+        border-color: coral;
+      }
+      img {
+        width: 100%;
+        filter: grayscale(100%);
+        border-radius: 5px;
+        transition: all .25s ease-in-out;
+      }
+      p {
+        margin: 5px 0;
+        padding: 0;
+        text-align: center;
+        font-style: italic;
+      } 
